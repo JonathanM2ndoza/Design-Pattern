@@ -11,7 +11,7 @@ Example
 
 ![Screenshot](Prtsc/servicelocator_pattern_uml_diagram.jpg)
 
-Reference
+Reference:
 https://www.tutorialspoint.com/design_pattern/service_locator_pattern.htm
 
 ## Behavioral Patterns
@@ -24,8 +24,19 @@ Example
 
 ![Screenshot](Prtsc/command_pattern_uml_diagram.jpg)
 
-Reference
+Reference:
 https://www.tutorialspoint.com/design_pattern/command_pattern.htm
+
+### Template Pattern
+In Template pattern, an abstract class exposes defined way(s)/template(s) to execute its methods. Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined by an abstract class. 
+
+Example
+
+![Screenshot](Prtsc/template_pattern_uml_diagram.jpg)
+
+Reference:
+https://www.tutorialspoint.com/design_pattern/template_pattern.htm
+
 
 
 
