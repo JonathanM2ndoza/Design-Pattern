@@ -11,6 +11,7 @@ Example
 
 ![Screenshot](Prtsc/servicelocator_pattern_uml_diagram.jpg)
 
+Reference
 https://www.tutorialspoint.com/design_pattern/service_locator_pattern.htm
 
 ## Behavioral Patterns
@@ -23,6 +24,7 @@ Example
 
 ![Screenshot](Prtsc/command_pattern_uml_diagram.jpg)
 
+Reference
 https://www.tutorialspoint.com/design_pattern/command_pattern.htm
 
 
