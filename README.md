@@ -33,14 +33,14 @@ https://sourcemaking.com/design_patterns/factory_method
 
 
 ### Abstract Factory Pattern
-Abstract Factory patterns work around a super-factory which creates other factories. This factory is also called as factory of factories. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
 
 Example
 
-![Screenshot](Prtsc/abstractfactory_pattern_uml_diagram.jpg)
+![Screenshot](Prtsc/Abstract_Factory.png)
 
 Reference:
-https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm
+https://refactoring.guru/design-patterns/abstract-factory
 
 ### Builder Pattern
 Builder pattern builds a complex object using simple objects and using a step by step approach. 
