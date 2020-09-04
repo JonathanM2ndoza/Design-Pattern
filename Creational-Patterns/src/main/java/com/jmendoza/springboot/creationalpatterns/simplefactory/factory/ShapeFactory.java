@@ -1,9 +1,9 @@
-package com.jmendoza.springboot.creationalpatterns.factorypattern.factory;
+package com.jmendoza.springboot.creationalpatterns.simplefactory.factory;
 
-import com.jmendoza.springboot.creationalpatterns.factorypattern.shape.Shape;
-import com.jmendoza.springboot.creationalpatterns.factorypattern.shape.circle.Circle;
-import com.jmendoza.springboot.creationalpatterns.factorypattern.shape.rectangle.Rectangle;
-import com.jmendoza.springboot.creationalpatterns.factorypattern.shape.square.Square;
+import com.jmendoza.springboot.creationalpatterns.simplefactory.shape.Shape;
+import com.jmendoza.springboot.creationalpatterns.simplefactory.shape.circle.Circle;
+import com.jmendoza.springboot.creationalpatterns.simplefactory.shape.rectangle.Rectangle;
+import com.jmendoza.springboot.creationalpatterns.simplefactory.shape.square.Square;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

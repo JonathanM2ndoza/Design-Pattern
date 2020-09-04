@@ -1,6 +1,6 @@
-package com.jmendoza.springboot.creationalpatterns.factorypattern.shape.square;
+package com.jmendoza.springboot.creationalpatterns.simplefactory.shape.square;
 
-import com.jmendoza.springboot.creationalpatterns.factorypattern.shape.Shape;
+import com.jmendoza.springboot.creationalpatterns.simplefactory.shape.Shape;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

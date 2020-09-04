@@ -1,4 +1,4 @@
-package com.jmendoza.springboot.creationalpatterns.factorypattern;
+package com.jmendoza.springboot.creationalpatterns.simplefactory;
 
 import com.jmendoza.springboot.creationalpatterns.CreationalPatternsApplication;
 import org.junit.jupiter.api.*;

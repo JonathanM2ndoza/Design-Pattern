@@ -1,8 +1,8 @@
-package com.jmendoza.springboot.creationalpatterns.factorypattern.controller;
+package com.jmendoza.springboot.creationalpatterns.simplefactory.controller;
 
 import com.google.gson.JsonObject;
-import com.jmendoza.springboot.creationalpatterns.factorypattern.factory.ShapeFactory;
-import com.jmendoza.springboot.creationalpatterns.factorypattern.shape.Shape;
+import com.jmendoza.springboot.creationalpatterns.simplefactory.factory.ShapeFactory;
+import com.jmendoza.springboot.creationalpatterns.simplefactory.shape.Shape;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
