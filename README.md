@@ -43,14 +43,14 @@ Reference:
 https://refactoring.guru/design-patterns/abstract-factory
 
 ### Builder Pattern
-Builder pattern builds a complex object using simple objects and using a step by step approach. 
+Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
 
 Example
 
-![Screenshot](Prtsc/builder_pattern_uml_diagram.jpg)
+![Screenshot](Prtsc/Builder_pattern.png)
 
 Reference:
-https://www.tutorialspoint.com/design_pattern/builder_pattern.htm
+https://refactoring.guru/design-patterns/builder
 
 ### Singleton Pattern
 Singleton pattern is one of the simplest design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
