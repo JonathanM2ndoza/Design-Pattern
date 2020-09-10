@@ -1,8 +1,8 @@
 package com.jmendoza.springboot.creationalpatterns.abstractfactory.controller;
 
-import com.jmendoza.springboot.creationalpatterns.abstractfactory.factory.GUIFactory;
-import com.jmendoza.springboot.creationalpatterns.abstractfactory.factory.macos.MacOSFactory;
-import com.jmendoza.springboot.creationalpatterns.abstractfactory.factory.windows.WindowsFactory;
+import com.jmendoza.springboot.creationalpatterns.abstractfactory.factories.GUIFactory;
+import com.jmendoza.springboot.creationalpatterns.abstractfactory.factories.macos.MacOSFactory;
+import com.jmendoza.springboot.creationalpatterns.abstractfactory.factories.windows.WindowsFactory;
 import com.jmendoza.springboot.creationalpatterns.abstractfactory.service.Application;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
