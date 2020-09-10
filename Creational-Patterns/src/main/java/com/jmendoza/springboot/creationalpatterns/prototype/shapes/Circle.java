@@ -1,7 +1,7 @@
 package com.jmendoza.springboot.creationalpatterns.prototype.shapes;
 
 public class Circle extends Shape {
-    public int radius;
+    private int radius;
 
     public Circle() {
     }
@@ -9,8 +9,16 @@ public class Circle extends Shape {
     public Circle(Circle target) {
         super(target);
         if (target != null) {
-            this.radius = target.radius;
+            setRadius(target.getRadius());
         }
+    }
+
+    public int getRadius() {
+        return radius;
+    }
+
+    public void setRadius(int radius) {
+        this.radius = radius;
     }
 
     @Override
@@ -22,6 +30,6 @@ public class Circle extends Shape {
     public boolean equals(Object object2) {
         if (!(object2 instanceof Circle) || !super.equals(object2)) return false;
         Circle shape2 = (Circle) object2;
-        return shape2.radius == radius;
+        return shape2.getRadius() == getRadius();
     }
 }

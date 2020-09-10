@@ -13,17 +13,17 @@ public class BundledShapeCache {
 
     public BundledShapeCache() {
         Circle circle = new Circle();
-        circle.x = 5;
-        circle.y = 7;
-        circle.radius = 45;
-        circle.color = "Green";
+        circle.setX(5);
+        circle.setY(7);
+        circle.setRadius(45);
+        circle.setColor("Green");
 
         Rectangle rectangle = new Rectangle();
-        rectangle.x = 6;
-        rectangle.y = 9;
-        rectangle.width = 8;
-        rectangle.height = 10;
-        rectangle.color = "Blue";
+        rectangle.setX(6);
+        rectangle.setY(9);
+        rectangle.setWidth(8);
+        rectangle.setHeight(10);
+        rectangle.setColor("Blue");
 
         put("big.green.circle", circle);
         put("medium.blue.rectangle", rectangle);
