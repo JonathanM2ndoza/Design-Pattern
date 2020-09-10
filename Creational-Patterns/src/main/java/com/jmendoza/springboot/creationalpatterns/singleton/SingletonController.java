@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 public class SingletonController {
 
     @GetMapping
-    public ResponseEntity test(HttpServletRequest request) {
+    public ResponseEntity getSingleton(HttpServletRequest request) {
 
         SingletonPattern singletonPattern1 = SingletonPattern.getInstance("singletonPattern1");
         SingletonPattern singletonPattern2 = SingletonPattern.getInstance("singletonPattern2");
