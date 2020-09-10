@@ -3,7 +3,7 @@ package com.jmendoza.springboot.creationalpatterns.abstractfactory.controller;
 import com.jmendoza.springboot.creationalpatterns.abstractfactory.factories.GUIFactory;
 import com.jmendoza.springboot.creationalpatterns.abstractfactory.factories.macos.MacOSFactory;
 import com.jmendoza.springboot.creationalpatterns.abstractfactory.factories.windows.WindowsFactory;
-import com.jmendoza.springboot.creationalpatterns.abstractfactory.service.Application;
+import com.jmendoza.springboot.creationalpatterns.abstractfactory.service.FactoryService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,17 +18,17 @@ public class AbstractFactoryController {
     @GetMapping("/{os_name}")
     public ResponseEntity getShape(@PathVariable("os_name") String osName) {
 
-        Application application;
+        FactoryService factoryService;
         GUIFactory guiFactory;
         String osName1 = osName.toLowerCase();
         if (osName1.contains("mac")) {
             guiFactory = new MacOSFactory();
-            application = new Application(guiFactory);
+            factoryService = new FactoryService(guiFactory);
         } else {
             guiFactory = new WindowsFactory();
-            application = new Application(guiFactory);
+            factoryService = new FactoryService(guiFactory);
         }
 
-        return new ResponseEntity(application.businessLogic(), HttpStatus.OK);
+        return new ResponseEntity(factoryService.businessLogic(), HttpStatus.OK);
     }
 }

@@ -9,12 +9,12 @@ import com.jmendoza.springboot.creationalpatterns.abstractfactory.components.Che
  * Factory users don't care which concrete factory they use since they work with
  * factories and products through abstract interfaces.
  */
-public class Application {
+public class FactoryService {
 
     private Button button;
     private Checkbox checkbox;
 
-    public Application(GUIFactory factory) {
+    public FactoryService(GUIFactory factory) {
         button = factory.createButton();
         checkbox = factory.createCheckbox();
     }
