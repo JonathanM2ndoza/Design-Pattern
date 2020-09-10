@@ -74,6 +74,55 @@ Reference:
 https://refactoring.guru/design-patterns/prototype
 
 
+## Structural Patterns
+These design patterns deal with class and object composition. The concept of inheritance is used to compose interfaces and define ways to compose objects to obtain new functionality. - GoFPatterns
+
+### Adapter Pattern
+
+Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+
+![Screenshot](Prtsc/structure-object-adapter.png)
+
+Reference:
+https://refactoring.guru/design-patterns/adapter
+
+### Decorator Pattern
+Decorator pattern allows a user to add new functionality to an existing object without altering its structure.
+
+This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
+
+Example
+
+![Screenshot](Prtsc/decorator_pattern_uml_diagram.jpg)
+
+Reference:
+https://www.tutorialspoint.com/design_pattern/decorator_pattern.htm
+
+### Facade Pattern
+Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system.
+
+This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
+
+Example
+
+![Screenshot](Prtsc/facade_pattern_uml_diagram.jpg)
+
+Reference:
+https://www.tutorialspoint.com/design_pattern/facade_pattern.htm
+
+### Proxy Pattern
+In proxy pattern, a class represents functionality of another class. 
+
+In proxy pattern, we create object having original object to interface its functionality to outer world.
+
+Example
+
+![Screenshot](Prtsc/proxy_pattern_uml_diagram.jpg)
+
+Reference:
+https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm
+
+
 ## Architectural patterns
 An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context. Architectural patterns are similar to software design patterns but have a broader scope. The architectural patterns address various issues in software engineering, such as computer hardware performance limitations, high availability and minimization of a business risk. Some architectural patterns have been implemented within software frameworks. - Wikipedia
 
@@ -111,44 +160,6 @@ Reference:
 https://www.tutorialspoint.com/design_pattern/template_pattern.htm
 
 
-## Structural Patterns
-These design patterns deal with class and object composition. The concept of inheritance is used to compose interfaces and define ways to compose objects to obtain new functionality. - GoFPatterns
-
-### Decorator Pattern
-Decorator pattern allows a user to add new functionality to an existing object without altering its structure.
-
-This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
-
-Example
-
-![Screenshot](Prtsc/decorator_pattern_uml_diagram.jpg)
-
-Reference:
-https://www.tutorialspoint.com/design_pattern/decorator_pattern.htm
-
-### Facade Pattern
-Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system.
-
-This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
-
-Example
-
-![Screenshot](Prtsc/facade_pattern_uml_diagram.jpg)
-
-Reference:
-https://www.tutorialspoint.com/design_pattern/facade_pattern.htm
-
-### Proxy Pattern
-In proxy pattern, a class represents functionality of another class. 
-
-In proxy pattern, we create object having original object to interface its functionality to outer world.
-
-Example
-
-![Screenshot](Prtsc/proxy_pattern_uml_diagram.jpg)
-
-Reference:
-https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm
 
 
 
