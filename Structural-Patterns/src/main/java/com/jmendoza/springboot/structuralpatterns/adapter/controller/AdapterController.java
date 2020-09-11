@@ -10,19 +10,24 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @RestController
 @RequestMapping("/adapter")
 public class AdapterController {
 
     @GetMapping
     public ResponseEntity getBuilder() {
-        Shape[] shapes = {new RectangleAdapter(new Rectangle()),
-                new LineAdapter(new Line())};
+        List<Shape> shapes = new ArrayList<>();
+        shapes.add(new RectangleAdapter(new Rectangle()));
+        shapes.add(new LineAdapter(new Line()));
+
         int x1 = 10, y1 = 20;
         int x2 = 30, y2 = 60;
-        for (Shape shape : shapes) {
-            shape.draw(x1, y1, x2, y2);
-        }
+
+        shapes.forEach(shape -> shape.draw(x1, y1, x2, y2));
+
         return ResponseEntity.noContent().build();
     }
 }
