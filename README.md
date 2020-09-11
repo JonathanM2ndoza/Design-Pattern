@@ -84,7 +84,19 @@ Adapter is a structural design pattern that allows objects with incompatible int
 ![Screenshot](Prtsc/structure-object-adapter.png)
 
 Reference:
-https://refactoring.guru/design-patterns/adapter
+https://sourcemaking.com/design_patterns/adapter
+
+### Facade Pattern
+Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system.
+
+This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
+
+Example
+
+![Screenshot](Prtsc/facade_pattern_uml_diagram.jpg)
+
+Reference:
+https://www.tutorialspoint.com/design_pattern/facade_pattern.htm
 
 ### Decorator Pattern
 Decorator pattern allows a user to add new functionality to an existing object without altering its structure.
@@ -98,17 +110,6 @@ Example
 Reference:
 https://www.tutorialspoint.com/design_pattern/decorator_pattern.htm
 
-### Facade Pattern
-Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system.
-
-This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
-
-Example
-
-![Screenshot](Prtsc/facade_pattern_uml_diagram.jpg)
-
-Reference:
-https://www.tutorialspoint.com/design_pattern/facade_pattern.htm
 
 ### Proxy Pattern
 In proxy pattern, a class represents functionality of another class. 
