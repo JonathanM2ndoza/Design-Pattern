@@ -23,8 +23,10 @@ public class AdapterController {
         shapes.add(new RectangleAdapter(new Rectangle()));
         shapes.add(new LineAdapter(new Line()));
 
-        int x1 = 10, y1 = 20;
-        int x2 = 30, y2 = 60;
+        int x1 = 10;
+        int y1 = 20;
+        int x2 = 30;
+        int y2 = 60;
 
         shapes.forEach(shape -> shape.draw(x1, y1, x2, y2));
 
