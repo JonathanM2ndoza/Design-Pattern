@@ -18,7 +18,7 @@ import java.util.List;
 public class AdapterController {
 
     @GetMapping
-    public ResponseEntity getBuilder() {
+    public ResponseEntity getAdapter() {
         List<Shape> shapes = new ArrayList<>();
         shapes.add(new RectangleAdapter(new Rectangle()));
         shapes.add(new LineAdapter(new Line()));
