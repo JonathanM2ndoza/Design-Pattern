@@ -28,7 +28,7 @@ public class BuilderControllerTest {
     }
 
     @Test
-    public void getInputMacOS() throws Exception {
+    public void getBuilder() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders
                 .get("/builder")
                 .accept(MediaType.APPLICATION_JSON))
