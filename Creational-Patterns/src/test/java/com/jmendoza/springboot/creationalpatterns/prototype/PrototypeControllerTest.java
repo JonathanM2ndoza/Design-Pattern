@@ -26,7 +26,7 @@ public class PrototypeControllerTest {
     }
 
     @Test
-    public void getCircleGeometry() throws Exception {
+    public void getPrototype() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders
                 .get("/prototype")
                 .accept(MediaType.APPLICATION_JSON))

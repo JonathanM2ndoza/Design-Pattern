@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PrototypeController {
 
     @GetMapping
-    public ResponseEntity getBuilder() {
+    public ResponseEntity getPrototype() {
         BundledShapeCache cache = new BundledShapeCache();
 
         Shape shape1 = cache.get("big.green.circle");
