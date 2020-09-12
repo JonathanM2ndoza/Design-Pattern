@@ -27,7 +27,7 @@ public class SingletonControllerTest {
     }
 
     @Test
-    public void getCircleGeometry() throws Exception {
+    public void getSingleton() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders
                 .get("/singleton")
                 .accept(MediaType.APPLICATION_JSON))
