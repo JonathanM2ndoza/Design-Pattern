@@ -87,6 +87,7 @@ Reference:
 https://sourcemaking.com/design_patterns/adapter
 
 ### Facade Pattern
+
 Facade is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
 
 Example
@@ -97,17 +98,15 @@ Reference:
 https://refactoring.guru/design-patterns/facade
 
 ### Decorator Pattern
-Decorator pattern allows a user to add new functionality to an existing object without altering its structure.
 
-This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
+Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
 
 Example
 
-![Screenshot](Prtsc/decorator_pattern_uml_diagram.jpg)
+![Screenshot](Prtsc/Decorator.png)
 
 Reference:
-https://www.tutorialspoint.com/design_pattern/decorator_pattern.htm
-
+https://refactoring.guru/design-patterns/decorator
 
 ### Proxy Pattern
 In proxy pattern, a class represents functionality of another class. 
