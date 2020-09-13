@@ -109,30 +109,15 @@ Reference:
 https://refactoring.guru/design-patterns/decorator
 
 ### Proxy Pattern
-In proxy pattern, a class represents functionality of another class. 
 
-In proxy pattern, we create object having original object to interface its functionality to outer world.
-
-Example
-
-![Screenshot](Prtsc/proxy_pattern_uml_diagram.jpg)
-
-Reference:
-https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm
-
-
-## Architectural patterns
-An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context. Architectural patterns are similar to software design patterns but have a broader scope. The architectural patterns address various issues in software engineering, such as computer hardware performance limitations, high availability and minimization of a business risk. Some architectural patterns have been implemented within software frameworks. - Wikipedia
-
-### Service Locator Pattern
-The service locator design pattern is used when we want to locate various services using JNDI lookup. Considering high cost of looking up JNDI for a service, Service Locator pattern makes use of caching technique. For the first time a service is required, Service Locator looks up in JNDI and caches the service object. Further lookup or same service via Service Locator is done in its cache which improves the performance of application to great extent.
+Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
 
 Example
 
-![Screenshot](Prtsc/servicelocator_pattern_uml_diagram.jpg)
+![Screenshot](Prtsc/Proxy.png)
 
 Reference:
-https://www.tutorialspoint.com/design_pattern/service_locator_pattern.htm
+https://refactoring.guru/design-patterns/proxy
 
 ## Behavioral Patterns
 These design patterns are specifically concerned with communication between objects. - GoFPatterns
@@ -156,6 +141,20 @@ Example
 
 Reference:
 https://www.tutorialspoint.com/design_pattern/template_pattern.htm
+
+## Architectural patterns
+An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context. Architectural patterns are similar to software design patterns but have a broader scope. The architectural patterns address various issues in software engineering, such as computer hardware performance limitations, high availability and minimization of a business risk. Some architectural patterns have been implemented within software frameworks. - Wikipedia
+
+### Service Locator Pattern
+The service locator design pattern is used when we want to locate various services using JNDI lookup. Considering high cost of looking up JNDI for a service, Service Locator pattern makes use of caching technique. For the first time a service is required, Service Locator looks up in JNDI and caches the service object. Further lookup or same service via Service Locator is done in its cache which improves the performance of application to great extent.
+
+Example
+
+![Screenshot](Prtsc/servicelocator_pattern_uml_diagram.jpg)
+
+Reference:
+https://www.tutorialspoint.com/design_pattern/service_locator_pattern.htm
+
 
 
 
