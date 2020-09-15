@@ -1,13 +1,13 @@
-package com.jmendoza.springboot.templatepattern;
+package com.jmendoza.springboot.behavioralpatterns;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TemplatepatternApplication {
+public class BehavioralPatternsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TemplatepatternApplication.class, args);
+        SpringApplication.run(BehavioralPatternsApplication.class, args);
     }
 
 }
