@@ -4,7 +4,6 @@ Example Software Design Pattern With Spring Boot
 ## Creational Patterns
 These design patterns provide ways to create objects while hiding the creation logic, instead of instantiating objects directly using the new operator. This gives the program more flexibility in deciding which objects need to be created for a given use case. - GoFPatterns
 
-
 ### Simple Factory Pattern
 Simple Factory pattern is one of the most used design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of ***the best ways to create an object.***
 
@@ -119,7 +118,7 @@ Example
 Reference:
 https://refactoring.guru/design-patterns/proxy
 
-### Bridge
+### Bridge Pattern
 
 Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
 
@@ -132,6 +131,17 @@ https://refactoring.guru/design-patterns/bridge
 
 ## Behavioral Patterns
 These design patterns are specifically concerned with communication between objects. - GoFPatterns
+
+### Observer Pattern
+
+Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+
+Example
+
+![Screenshot](Prtsc/Observer.png)
+
+Reference:
+https://refactoring.guru/design-patterns/observer
 
 ### Command Pattern
 Command pattern is a data driven design pattern and falls under behavioral pattern category. A request is wrapped under an object as command and passed to invoker object. Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes the command.
