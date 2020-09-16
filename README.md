@@ -143,6 +143,17 @@ Example
 Reference:
 https://refactoring.guru/design-patterns/observer
 
+### Strategy Pattern
+
+Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+
+Example
+
+![Screenshot](Prtsc/Strategy.png)
+
+Reference:
+https://refactoring.guru/design-patterns/strategy
+
 ### Command Pattern
 Command pattern is a data driven design pattern and falls under behavioral pattern category. A request is wrapped under an object as command and passed to invoker object. Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes the command.
 
